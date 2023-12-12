@@ -6,7 +6,7 @@ Tic Tac Toe is a classic, simple game enjoyed by people of all ages. This web-ba
 
 ### Screenshots
 
-| PC View | Phone View | Tablet View |
+| Phone View | Tablet View | PC View |
 | ------- | ---------- | ----------- |
 | ![Phone View](https://github.com/lakshyaRW/randomwalk-web-assessment-level2/assets/76257165/3510b47a-8414-4adc-b0df-474eadc1c0f3) | ![Tablet View](https://github.com/lakshyaRW/randomwalk-web-assessment-level2/assets/76257165/a2a85c01-54b9-4ae5-a639-51a8489fd1c1) | ![PC View](https://github.com/lakshyaRW/randomwalk-web-assessment-level2/assets/76257165/cace35e8-85b2-4a3b-b00a-60a9766be60f) |
 
