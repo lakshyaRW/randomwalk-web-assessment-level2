@@ -4,6 +4,9 @@
 
 Tic Tac Toe is a classic, simple game enjoyed by people of all ages. This web-based version of Tic Tac Toe allows two players to compete in the timeless strategy game. Designed to be responsive, it can be played on PCs, smartphones, and tablets.
 
+### Video Link
+https://drive.google.com/file/d/1FAAsvUniCyAsohTNWdoWHVOQOYR68Hc-/view?usp=sharing
+
 ### Screenshots
 
 | Phone View | Tablet View | PC View |
