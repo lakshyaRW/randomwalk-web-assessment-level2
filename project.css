@@ -1,0 +1,93 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #1f4037, #99f2c8);
+}
+
+.container {
+    text-align: center;
+    max-width: 400px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+h1 {
+    font-size: 2em;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    margin: 20px auto;
+}
+
+.grid div {
+    background-color: #f1f1f1;
+    border: 2px solid #333;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.grid div:hover {
+    background-color: #d4edda;
+    transform: scale(1.05);
+}
+
+.grid div.taken {
+    cursor: not-allowed;
+    background-color: #f8d7da;
+}
+
+
+#scorecard {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+    width: 80%;
+    font-size: 1.2em;
+    color: #555;
+}
+
+.player-label {
+    font-weight: bold;
+    color: #007bff;
+}
+
+
+#gameStatus {
+    margin: 15px;
+    font-size: 1.2em;
+    color: #495057;
+}
+
+button {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #0056b3, #004085);
+}
