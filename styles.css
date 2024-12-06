@@ -1,0 +1,103 @@
+
+
+/* General Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #acb6e5);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+  }
+  
+  /* Main Container */
+  .container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.5);
+    max-width: 400px;
+    width: 90%;
+  }
+  
+  /* Title */
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #ffd700; /* Golden color */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Scorecard Styles */
+  .scorecard {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+  }
+  
+  .scorecard p {
+    margin: 10px 0;
+  }
+  
+  /* Game Board Styles */
+  #game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 5px;
+    justify-content: center;
+    margin: 0 auto 20px;
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    color: #333;
+    border-radius: 8px;
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, background-color 0.2s;
+    cursor: pointer;
+  }
+  
+  .cell:hover {
+    background-color: #ffd700;
+    transform: scale(1.1);
+  }
+  
+  .cell.taken {
+    pointer-events: none;
+    background-color: #f4f4f4;
+    color: #888;
+  }
+  
+  /* Status and Reset Button */
+  #status {
+    margin: 20px 0;
+    font-size: 1.4rem;
+    color: #00ff7f; /* Spring Green */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+  }
+  
+  #reset-button {
+    padding: 12px 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #ff4500; /* Orange Red */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  #reset-button:hover {
+    background-color: #ff6347; /* Tomato */
+  }
